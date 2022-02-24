@@ -1,0 +1,12 @@
+//access token se saca de la cuenta de mercado pago
+curl -X POST \
+-H "Content-Type: application/json" \
+-H 'Authorization: Bearer PROD_ACCESS_TOKEN' \
+"https://api.mercadopago.com/users/test_user" \
+-d '{"site_id":"MLA"}'
+
+vendedor
+{"id":798621723,"nickname":"TETE959329","password":"qatest3850","site_status":"active","email":"test_user_80044566@testuser.com"}
+
+comprador
+{"id":798621863,"nickname":"TESTPPAXFLG3","password":"qatest2183","site_status":"active","email":"test_user_66099405@testuser.com"}
